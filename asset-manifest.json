@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/klav-fu/static/css/main.8cbecc18.css",
+    "main.js": "/klav-fu/static/js/main.f8c512ab.js",
+    "static/media/primeicons.svg": "/klav-fu/static/media/primeicons.e1441b135b3ca9ad643c.svg",
+    "static/media/primeicons.eot": "/klav-fu/static/media/primeicons.d44157bdfa026dc877af.eot",
+    "static/media/primeicons.woff": "/klav-fu/static/media/primeicons.10d3152104f2208ac82a.woff",
+    "static/media/primeicons.ttf": "/klav-fu/static/media/primeicons.ea5358601d0a3fd6670b.ttf",
+    "static/media/primeicons.woff2": "/klav-fu/static/media/primeicons.78172950b335ccdb94e2.woff2",
+    "static/media/color.png": "/klav-fu/static/media/color.6441e63a57ccc5105bad.png",
+    "index.html": "/klav-fu/index.html",
+    "static/media/getFetch.cjs": "/klav-fu/static/media/getFetch.40f37ddea2378391108f.cjs"
+  },
+  "entrypoints": [
+    "static/css/main.8cbecc18.css",
+    "static/js/main.f8c512ab.js"
+  ]
+}
