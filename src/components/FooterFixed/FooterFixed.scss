@@ -1,0 +1,16 @@
+footer.AppFooterFixed {
+  background-color: var(--global-color-one);
+  box-shadow: 0 3px 6px var(--global-color-one-rgba3);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+
+  color: var(--global-color-three);
+}

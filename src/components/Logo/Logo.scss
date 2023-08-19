@@ -1,0 +1,18 @@
+div.AppLogo {
+  margin: 10px;
+  font-family: "Teko", sans-serif;
+  font-size: 2em;
+  font-style: bold;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+
+  .ImagemLogo {
+    width: 25px;
+  }
+  @media (max-width: 767px) {
+    .ImagemLogo {
+      display: none;
+    }
+  }
+}

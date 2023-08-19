@@ -1,0 +1,56 @@
+header.AppHeader {
+  background-color: var(--global-color-one);
+  box-shadow: 0 3px 6px var(--global-color-one-rgba3);
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 10px;
+  height: 50px;
+
+  color: var(--global-color-three);
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h1.Title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  span {
+    flex-grow: 1;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-avatar-image {
+    font-size: 1.2em;
+  }
+
+  .user-avatar {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .icon-bars {
+    margin-left: 10px; /* Ajuste a margem conforme necessário para separar a foto do ícone */
+  }
+
+  .left {
+    text-align: left;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .right {
+    text-align: right;
+  }
+}

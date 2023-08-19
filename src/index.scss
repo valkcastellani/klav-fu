@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&display=swap");
+
+/* Resetando os Componentes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  max-width: 100%;
+}
+
+/* Declarations Variables */
+:root {
+  --font-family: "Lato", sans-serif;
+
+  --global-color-one: #222831;
+  --global-color-two: #393e46;
+  --global-color-three: #00adb5;
+  --global-color-four: #eeeeee;
+  --global-color-five: #fff;
+
+  --global-color-one-rgb: rgb(34, 40, 49);
+  --global-color-two-rgb: rgb(57, 62, 70);
+  --global-color-three-rgb: rgb(0, 173, 181);
+  --global-color-four-rgb: rgb(238, 238, 238);
+  --global-color-five-rgb: rgb(255, 255, 255);
+
+  --global-color-two-rgba1: rgb(57, 62, 70, 0.1);
+
+  --global-color-one-rgba3: rgb(34, 40, 49, 0.3);
+
+  --global-color-letra-k: #655f5b;
+  --global-color-letra-l: #5f7c7e;
+  --global-color-letra-a: #5a99a1;
+  --global-color-letra-v: #55b7c4;
+
+  --global-color-letra-k-rgb: rgb(101, 95, 91);
+  --global-color-letra-l-rgb: rgb(95, 124, 126);
+  --global-color-letra-a-rgb: rgb(90, 153, 161);
+  --global-color-letra-v-rgb: rgb(85, 183, 196);
+
+  --global-color-letra-k-rgba2: rgba(101, 95, 91, 0.2);
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--global-color-four);
+}
+
+.background-color {
+  background-color: var(--global-color-four);
+}
+
+.LetraK {
+  color: var(--global-color-letra-k);
+}
+
+.LetraL {
+  color: var(--global-color-letra-l);
+}
+
+.LetraA {
+  color: var(--global-color-letra-a);
+}
+
+.LetraV {
+  color: var(--global-color-letra-v);
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+div.padrao {
+  font-family: "Teko", sans-serif;
+  margin: 10px;
+  background-color: var(--global-color-five);
+  border-radius: 5px;
+  box-shadow: 0 3px 6px var(--global-color-two-rgba1);
+  padding: 20px;
+
+  p {
+    text-align: justify;
+  }
+}
